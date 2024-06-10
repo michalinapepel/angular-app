@@ -11,6 +11,8 @@ h4 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Oswald;
+  font-variation-settings: "wght" 300;
 }
 html,
 body,
@@ -83,4 +85,11 @@ app-root {
 
 .hidden {
   display: none;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("assets/fonts/Oswald-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
